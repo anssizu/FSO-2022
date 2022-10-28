@@ -1,0 +1,11 @@
+note over selain:
+käyttäjä kirjoittaa viestin
+ja painaa tallennusnappia
+end note
+
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over palvelin:
+palvelin suorittaa oman logiikkansa
+viestien lähettämisen suhteen
+end note
